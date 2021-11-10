@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<body>
+    <!doctype html>
+<html lang="en">
+  <head>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <title>CoWIN</title>
+      <link rel = "icon" href="{% static 'title.png' %}" type = "image/x-icon">
+  </head>
+  <body>
+    <nav class="navbar  navbar-expand-sm navbar-ligth bg-light ">
+    <a href="#"
+       class="navbar-brand mb-0 h1">
+        <img height="100" width="100" src="{% static  'img/logo.png' %}">
+        CoWIN
+    </a>
+        <button type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                class="navbar-toggler"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+           Menu
+        </button>
+        <div class="collapse navbar-collapse"
+             id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nave-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#"
+                    id="navbarDropdown"
+                    data-toggle="dropdown"
+                    aria-expanded="false">
+                        Location
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.google.com/search?q=private%20vaccination%20centre%20kochi&sxsrf=AOaemvI-u9Z6bFOJVLkWsXF0MN-z5gWKoQ:1636361908378&ei=ReaIYf_0Ieuo3LUPn5CrWA&oq=vaccination+centres+kochi+&gs_lcp=Cgdnd3Mtd2l6EAEYAjIICAAQFhAKEB4yCAgAEBYQChAeMggIABAWEAoQHjoHCAAQRxCwA0oECEEYAFCZBViZBWC1J2gBcAJ4AIABpAGIAaQBkgEDMC4xmAEAoAEByAEIwAEB&sclient=gws-wiz&tbs=lf:1&tbm=lcl&rflfq=1&num=10&rldimm=7004028953732851320&lqi=CiBwcml2YXRlIHZhY2NpbmF0aW9uIGNlbnRyZSBrb2NoaSID8AEBWiwiIHByaXZhdGUgdmFjY2luYXRpb24gY2VudHJlIGtvY2hpKggIAxAAEAEQApIBC21lZGljYWxfbGFiqgEiEAEqHiIacHJpdmF0ZSB2YWNjaW5hdGlvbiBjZW50cmUoALABAg&ved=2ahUKEwi59paSs4j0AhVugtgFHeidCG0QvS56BAgWEAo&rlst=f#rlfi=hd:;si:7004028953732851320,l,CiBwcml2YXRlIHZhY2NpbmF0aW9uIGNlbnRyZSBrb2NoaSID8AEBWiwiIHByaXZhdGUgdmFjY2luYXRpb24gY2VudHJlIGtvY2hpKggIAxAAEAEQApIBC21lZGljYWxfbGFiqgEiEAEqHiIacHJpdmF0ZSB2YWNjaW5hdGlvbiBjZW50cmUoALABAg;mv:[[10.415130628097206,76.65681816276633],[9.645677557326145,75.31648613151633],null,[10.03063256020231,75.98665214714133],10]"> kochi </a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=private+vaccination+centre+alappuzha&tbm=lcl&sxsrf=AOaemvJ8vfRJok-3I3btStMStWN5r57kRw%3A1636362159926&ei=r-eIYYaCOMbN-Qbyu4TwCQ&oq=private+vaccination+centre+a&gs_l=psy-ab.1.0.0i512k1l4j0i22i30k1l6.466052.469023.0.472313.6.6.0.0.0.0.517.1265.0j3j1j5-1.5.0....0...1c.1.64.psy-ab..1.5.1263...0i512i457k1.0.oN0Zi5H0ack"> Alapuzha </a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=private+vaccination+centre+kollam&tbm=lcl&sxsrf=AOaemvI0WEzUaSWm-yHCCbHVO8Ow54gZKQ%3A1636362633518&ei=iemIYc2PH4r_0gTh-LSgBA&oq=private+vaccination+centre+kol&gs_l=psy-ab.1.0.0i512k1l2j0i22i30k1l2.63128.67116.0.68414.4.4.0.0.0.0.310.689.0j3j0j1.4.0....0...1c.1.64.psy-ab..0.4.688...0i67k1j0i512i457k1.0.UpnFlmo69g0"> Kollam </a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=private+vaccination+centre+thiruvananthapuram&tbm=lcl&sxsrf=AOaemvLuRlp6EQ6nooZTorhQcmggcb9swQ%3A1636362703462&ei=z-mIYcPWG4zFmAXQg7ewDQ&oq=private+vaccination+centre+thi&gs_l=psy-ab.1.3.33i22i29i30k1l9.22512.29867.0.32541.13.10.2.1.1.0.162.1221.0j10.10.0....0...1c.1.64.psy-ab..1.12.1133...0i512k1j0i22i30k1j0i512i457k1.0.ewn6lgbYcxk#rlfi=hd:;si:;mv:[[8.64622690983148,77.05548161894532],[8.453047204184736,76.72039861113282],null,[8.549649296860851,76.88794011503907],12]"> Thiruvanathapuram </a>
+
+                    </div>
+
+
+                </li>
+                <li class="nave-item active">
+                    <li><a href="accounts/register" class="nav-link active">Vaccination Booking</a></li>
+
+
+            </ul>
+        </div>
+</nav>
+
+  </body>
+</html>
+<img height="690" width="1680" src="{% static  'img/banner.png' %} " alt="banner image">
+</body>
+</html>
